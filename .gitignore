@@ -1,0 +1,13 @@
+# macOS and Xcode
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Vercel local metadata
+.vercel/
+
+# Local secrets
+.env
+.env.*
