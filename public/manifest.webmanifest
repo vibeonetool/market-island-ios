@@ -1,0 +1,18 @@
+{
+  "name": "Market Island",
+  "short_name": "Market Island",
+  "description": "나스닥과 USD/KRW 환율을 빠르게 확인하세요.",
+  "lang": "ko",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

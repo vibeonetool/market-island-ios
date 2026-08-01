@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#050505" />
+    <meta name="description" content="나스닥과 달러 환율을 빠르게 확인하는 설치형 미니 대시보드" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Market Island</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="top-bar">
+        <div>
+          <p class="eyebrow">MARKET ISLAND</p>
+          <h1>오늘의 시장</h1>
+        </div>
+        <button class="icon-button" id="refreshButton" type="button" aria-label="시세 새로고침">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8.1 8.1 0 0 0-14.7-4.7L3 8.5M4 4v4.5h4.5M4 13a8.1 8.1 0 0 0 14.7 4.7l2.3-2.2M20 20v-4.5h-4.5" /></svg>
+        </button>
+      </header>
+
+      <section class="island" aria-label="시장 요약">
+        <div class="camera-cutout" aria-hidden="true"><span></span><span></span></div>
+        <div class="island-content">
+          <div class="status-row">
+            <span class="live-dot"></span>
+            <span id="marketStatus">시세를 불러오는 중</span>
+          </div>
+          <div class="island-cards">
+            <article class="quote quote-nasdaq">
+              <div class="quote-header">
+                <span class="symbol-chip">IXIC</span>
+                <span class="market-label">NASDAQ</span>
+              </div>
+              <p class="price" id="nasdaqPrice">—</p>
+              <p class="change neutral" id="nasdaqChange">데이터를 가져오는 중</p>
+            </article>
+            <div class="divider" aria-hidden="true"></div>
+            <article class="quote quote-usdkrw">
+              <div class="quote-header">
+                <span class="symbol-chip currency-chip">USD</span>
+                <span class="market-label">USD / KRW</span>
+              </div>
+              <p class="price" id="exchangePrice">—</p>
+              <p class="change neutral" id="exchangeChange">1달러당 원화</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="details" aria-label="정보">
+        <p class="updated" id="updatedAt">업데이트 대기 중</p>
+        <p class="notice">나스닥은 실시간 또는 지연 시세이며, 환율은 기준환율입니다. 투자 판단 전 증권사·은행의 확정 시세를 확인하세요.</p>
+      </section>
+
+      <section class="install-card" id="installCard">
+        <div class="install-copy">
+          <span class="install-icon">＋</span>
+          <div>
+            <h2>홈 화면에 설치</h2>
+            <p id="installDescription">앱처럼 빠르게 열 수 있어요.</p>
+          </div>
+        </div>
+        <button id="installButton" class="install-button" type="button" hidden>설치</button>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
