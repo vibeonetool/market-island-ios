@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* MarketIslandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* MarketIslandApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* MarketDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* MarketDataClient.swift */; };
+		A10000000000000000000004 /* LiveActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* LiveActivityController.swift */; };
+		A10000000000000000000005 /* MarketActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* MarketActivityAttributes.swift */; };
+		A10000000000000000000006 /* MarketIslandLiveActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* MarketIslandLiveActivityWidget.swift */; };
+		A10000000000000000000007 /* MarketActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* MarketActivityAttributes.swift */; };
+		A10000000000000000000008 /* MarketIslandWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* MarketIslandWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = A40000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = A50000000000000000000002; remoteInfo = MarketIslandWidget; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A60000000000000000000001 /* Embed App Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (A10000000000000000000008 /* MarketIslandWidget.appex in Embed App Extensions */, ); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* MarketIslandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketIslandApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* MarketDataClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataClient.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* LiveActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityController.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* MarketActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketActivityAttributes.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* MarketIslandLiveActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketIslandLiveActivityWidget.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000008 /* MarketIslandWidget.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = MarketIslandWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000009 /* MarketIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A70000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80000000000000000000001 = {isa = PBXGroup; children = (A80000000000000000000002 /* MarketIsland */, A80000000000000000000003 /* MarketIslandWidget */, A80000000000000000000004 /* Products */, ); sourceTree = "<group>"; };
+		A80000000000000000000002 /* MarketIsland */ = {isa = PBXGroup; children = (A20000000000000000000001 /* MarketIslandApp.swift */, A20000000000000000000002 /* ContentView.swift */, A20000000000000000000003 /* MarketDataClient.swift */, A20000000000000000000004 /* LiveActivityController.swift */, A20000000000000000000005 /* MarketActivityAttributes.swift */, ); path = MarketIsland; sourceTree = "<group>"; };
+		A80000000000000000000003 /* MarketIslandWidget */ = {isa = PBXGroup; children = (A20000000000000000000006 /* MarketIslandLiveActivityWidget.swift */, A20000000000000000000007 /* Info.plist */, ); path = MarketIslandWidget; sourceTree = "<group>"; };
+		A80000000000000000000004 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000009 /* MarketIsland.app */, A20000000000000000000008 /* MarketIslandWidget.appex */, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* MarketIsland */ = {isa = PBXNativeTarget; buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXNativeTarget "MarketIsland" */; buildPhases = (A70000000000000000000001 /* Frameworks */, AA00000000000000000000001 /* Sources */, A60000000000000000000001 /* Embed App Extensions */, ); buildRules = (); dependencies = (AB00000000000000000000001 /* PBXTargetDependency */, ); name = MarketIsland; productName = MarketIsland; productReference = A20000000000000000000009 /* MarketIsland.app */; productType = "com.apple.product-type.application"; };
+		A50000000000000000000002 /* MarketIslandWidget */ = {isa = PBXNativeTarget; buildConfigurationList = A90000000000000000000002 /* Build configuration list for PBXNativeTarget "MarketIslandWidget" */; buildPhases = (A70000000000000000000002 /* Frameworks */, AA00000000000000000000002 /* Sources */, ); buildRules = (); dependencies = (); name = MarketIslandWidget; productName = MarketIslandWidget; productReference = A20000000000000000000008 /* MarketIslandWidget.appex */; productType = "com.apple.product-type.app-extension"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 16.0;}; A50000000000000000000002 = {CreatedOnToolsVersion = 16.0;};};}; buildConfigurationList = A90000000000000000000003 /* Build configuration list for PBXProject "MarketIsland" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ko, ); mainGroup = A80000000000000000000001; productRefGroup = A80000000000000000000004 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A50000000000000000000001 /* MarketIsland */, A50000000000000000000002 /* MarketIslandWidget */, ); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA00000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* MarketIslandApp.swift in Sources */, A10000000000000000000002 /* ContentView.swift in Sources */, A10000000000000000000003 /* MarketDataClient.swift in Sources */, A10000000000000000000004 /* LiveActivityController.swift in Sources */, A10000000000000000000005 /* MarketActivityAttributes.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		AA00000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000006 /* MarketIslandLiveActivityWidget.swift in Sources */, A10000000000000000000007 /* MarketActivityAttributes.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB00000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A50000000000000000000002 /* MarketIslandWidget */; targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC00000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSSupportsLiveActivities = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.2; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.vibeonetool.marketisland; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		AC00000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSSupportsLiveActivities = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.2; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.vibeonetool.marketisland; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+		AC00000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; INFOPLIST_FILE = MarketIslandWidget/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.2; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.vibeonetool.marketisland.widget; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		AC00000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; INFOPLIST_FILE = MarketIslandWidget/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.2; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.vibeonetool.marketisland.widget; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+		AC00000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.2; SDKROOT = iphoneos; }; name = Debug; };
+		AC00000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.2; SDKROOT = iphoneos; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 /* Build configuration list for PBXNativeTarget "MarketIsland" */ = {isa = XCConfigurationList; buildConfigurations = (AC00000000000000000000001 /* Debug */, AC00000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A90000000000000000000002 /* Build configuration list for PBXNativeTarget "MarketIslandWidget" */ = {isa = XCConfigurationList; buildConfigurations = (AC00000000000000000000003 /* Debug */, AC00000000000000000000004 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A90000000000000000000003 /* Build configuration list for PBXProject "MarketIsland" */ = {isa = XCConfigurationList; buildConfigurations = (AC00000000000000000000005 /* Debug */, AC00000000000000000000006 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A40000000000000000000001 /* Project object */;
+}
